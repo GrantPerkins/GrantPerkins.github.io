@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>STEM</title>
+<link rel="stylesheet" href="styles.css" />
+<link rel="shortcut icon" type="image/png" href="images/face.jpg" />
+</head>
+<body>
+	<div id="navbar">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="robotics.html">Robotics</a></li>
+			<li><a href="CS.html">Computer Science</a></li>
+			<li><a href="humanities.html">Humanities</a></li>
+			<li><a href="math.html">Math</a></li>
+			<li><a href="physics.html">Physics</a></li>
+			<li><a href="STEM.html">STEM</a></li>
+			<li><a href="STEM2.html">STEM 2</a></li>
+			<li><a href="stw.html">STW</a></li>
+			<li><a href="french.html">French</a></li>
+		</ul>
+	</div>
+	<h1>STEM</h1>
+	<p>Every student at Mass Academy is required to have a science
+		project. We spend a month deciding on a project, and then we present
+		our projects at the fair in February.</p>
+	<h2>Science Project</h2>
+	<p>
+
+		My science project is titled <b>Accurate Centroid-Determining
+			Human Body Detection</b>. I am using three neural networks to more
+		accurately determine the location of people within depth images. At
+		the time of writing, I have two of my three neural networks done. I
+		chose this project because I am interested in the fields of computer
+		vision and machine learning, and I wanted to have some experience
+		before I committed myself to this path in college. Below is the code
+		for one of my neural networks, called a sparse auto-encoder.<br />
+	</p>
+	<div class=center>
+		<object data="docs/sparse.pdf" type="application/pdf" width=425
+			height=550> </object>
+	</div>
+	<h3>Problem Statement</h3>
+	<p>Current centroid-determining human body detection algorithms
+		using RGB-D images are only up to 95% accurate. Applications for this
+		technology, ranging from security systems to video gaming, require
+		higher accuracy.</p>
+	<h3>Engineering Goal</h3>
+	<p>The algorithm developed for this project will be more accurate
+		than existing algorithms, as evidenced by decreased percent error in
+		bounding box sizes and locations and low distance between calculated
+		and actual centroids.</p>
+	<h3>Abstract</h3>
+	<p>Video calling platforms, security systems, and video games all
+		use human body detection, but inaccurate methods of locating the human
+		lower the overall accuracy of this technology. To improve this
+		technology from the current 95% maximum accuracy, a Sparse
+		Auto-Encoder (SAE) and convolutional neural network (CNN) were used
+		with Sliding Window Localization (SWL) to locate the centroids of
+		human bodies. Depth images were taken with an Xbox Kinect. The SAE
+		learns the human body features of a depth image dataset, which are
+		then used by the CNN to determine the human-body features of the
+		Kinect’s image. A histogram was then generated, and the centroids of
+		similar valued regions were found. SWL was used to then determine
+		which region’s centroid represented a human. This method has an
+		accuracy of 54.856%. This algorithm can be used in all systems where
+		locating a human body within an image is crucial.</p>
+	<h3>Summary of Work</h3>
+	<p>I used 3 neural networks for this project: a Sparse
+		Auto-Encoder, a Convolutional Neural Network, and a binary human
+		classifier. I used an additional Python file to test the accuracy of
+		the centroid determination using a False Positives Per View algorithm.
+		This algorithm compares the union and intersection of the actual and
+		experimental bounding boxes of the human. Unfortunately, my project
+		ended up being only 55% accurate, as determined by FPPV. This
+		algorithm is not more accurate than current algorithms, but I learned
+		a lot about machine learning, which was valuable to me. My summer job
+		will be in the field of machine learning, partially because of this
+		project.</p>
+	<h2>Statistics</h2>
+	<p>In the actual STEM class, we learn about different parts of the
+		research process as we go through our projects. One unit, we focused
+		on statistics. As a group project, I worked with some of my friends on
+		a presentation where we discussed when one should use a paired or
+		unpaired T-test. Below is that presentation.</p>
+	<div class=center>
+		<object data="docs/ttest.pdf" type="application/pdf" width=425
+			height=550> </object>
+	</div>
+</body>
+</html>
