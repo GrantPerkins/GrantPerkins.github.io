@@ -1,0 +1,66 @@
+[
+  {
+    "name": "HeLa Cell Image Segmentation",
+    "link": "https://www.celltherapy.saint-gobain.com/about-us/life-sciences-lab",
+    "image": "cells.jpg",
+    "description": "While on co-op at Saint-Gobain Research North America, I worked with the Life Sciences business unit to develop an image segmentation pipeline for evaluating the performance of cell growth bags. The end result was a Flask server where biologists could upload a scan of a bag seeded with HeLa cells, and a modified Mask RCNN would perform inference. Then, dozens of metrics are calculated including eccentricity, solidity, and area of every cell. Finally, a .zip full of histograms and heatmaps of all available metrics is provided to the biologists so they may assess the bags. I will be a co-author on a paper about this project by end of Q2 2022.",
+    "technologies": ["Python", "PyTorch", "Flask", "OpenCV", "Pandas"]
+  },
+  {
+    "name": "Unmasked: Reconstructing Masked Faces with Machine Learning",
+    "link": "https://github.com/UnmaskedML/UnmaskedML",
+    "image": "gan.png",
+    "description": "The accuracy of existing face detection and recognition models are greatly compromised when obstructions, like surgical masks, occlude facial features of the individual. This paper introduces a method which uses facial reconstruction as a new entry for face detection in a mask-wearing context. In the first phase of the model, an object detection network, called EfficientDet-D0, locates the position of the mask. In the second phase, a Gated Convolutional Network and SN-PatchGAN model, in a Generative Adversarial Network, work collaboratively to reconstruct the occluded region of the face. The EfficientDet-D0 model successfully detects masks with a prediction score of 0.966 mAP with an IoU threshold of 50%. The GAN was trained successfully and reconstructed the outline of a human face, but failed to reproduce detailed facial features due to time and hardware constraints.",
+    "technologies": ["Python", "TensorFlow", "OpenCV", "Docker"]
+  },
+  {
+    "name": "AWS S3 Local Implementation",
+    "link": "https://raw.githubusercontent.com/GrantPerkins/portfolio/master/src/data/paper.pdf",
+    "image": "s3.png",
+    "description": "Developed a a local implementation of Amazon Web Services S3 to serve as a new project for WPI's Distributed Computing Systems course. The focus of this project was to implement quorum-based policy for fault tolerance and give students more experience with the Go programming language. This implementation supports multiple nodes saving copies of the file, file versioning per node based on the system clock, and multiple clients sending read and write requests.",
+    "technologies": ["Golang"]
+  },
+  {
+    "name": "Axon",
+    "link": "https://docs.wpilib.org/en/latest/docs/software/wpilib-tools/axon/introduction.html",
+    "image": "hatchcover.png",
+    "description": "While working at WPILib, I lead development on Axon, a TensorFlow-backed web app for retraining COCO trained Mobilenets for use in the FIRST Robotics Competition. Axon provides a friendly interface for creating datasets, training models with live metrics, and inferencing TFLite models. There is a Docker backend that runs various TensorFlow 1.12 processes. To trigger the Docker containers to run, there is a TypeScript server. Finally, a React frontend written in TypeScript communicates to the server using GraphQL.",
+    "technologies": [
+      "Python",
+      "TensorFlow",
+      "OpenCV",
+      "Docker",
+      "TypeScript",
+      "GraphQL",
+      "React"
+    ]
+  },
+  {
+    "name": "GRIP",
+    "link": "https://docs.wpilib.org/en/stable/docs/software/vision-processing/grip/introduction-to-grip.html",
+    "image": "grip.png",
+    "description": "While working at WPILib, I maintained GRIP, the Graphically Represented Image Processing engine. It provides an easy-to-use GUI to develop OpenCV vision pipelines, as well as generate code in Python, C++, and Java. GRIP uses a drag-and-drop interface to implement all base OpenCV functions, such as erode, resize, and contour detection. This tool is used by thousands of high school students every year, and is one of WPILib's most popular tools.",
+    "technologies": ["OpenCV", "Java", "Python", "C++", "Gradle"]
+  },
+  {
+    "name": "Distributed Computing Systems Class Final Project",
+    "link": "https://github.com/GrantPerkins/CS4513FinalProject/blob/master/output.ipynb",
+    "image": "sagemaker.jpg",
+    "description": "For my final project of WPI's Distributed Computing Systems class, I developed a distributed machine learning MNIST classification solution with TensorFlow and AWS SageMaker. The MNIST dataset is split between all of the worker computers. A custom Python program was run across these workers. Each worker had a different \"rank\", and this rank was used to determine which slice of the dataset the worker should use. The lead worker printed metrics every 50 epochs. My Python script trained a custom convolutional neural network, calculating loss using cross entropy across all workers. The lead worker ran the optimizer",
+    "technologies": ["Python", "TensorFlow", "AWS SageMaker", "AWS S3"]
+  },
+  {
+    "name": "RattleSnake",
+    "link": "https://github.com/GrantPerkins/RattleSnake",
+    "image": "rs.png",
+    "description": "I developed my own compiled language called RattleSnake. While rudimentary, RattleSnake has a fully-functional lexer, parser, and assembly code generator for the NASM assembler. By running as an executable instead of an interpreted script, RattleSnake runs substantially faster than Python, from which the style of the language is based. RattleSnake also has clearer scope definitions than Python, and a main function. RattleSnake can currently do all basic math operations (+, -, *, /).",
+    "technologies": ["x86 Assembly", "Python", "NASM"]
+  },
+  {
+    "name": "Accurate Centroid-Determining Human Body Detection",
+    "link": "https://drive.google.com/file/d/1XcTCKMBJ2OyixukSnBX50-Wzj0SVDF7a/view?usp=sharing",
+    "image": "centroid.png",
+    "description": "Accurate Centroid-Determining Human Body Detection is a project I developed for the Massachusetts State Science Fair. I developed a triple neural network system for detecting the centroid of human body in depth images. I used a sparse auto-encoder, a convolutional neural network, sliding window localization, and a Haar cascade classifier to accomplish this task.",
+    "technologies": ["Python", "TensorFlow", "MatPlotLib", "OpenCV"]
+  }
+]
