@@ -49,7 +49,7 @@ function PortfolioElement(props: PortfolioElementProps) {
           <CardMedia
             className={classes.media}
             image={
-              "https://raw.githubusercontent.com/GrantPerkins/portfolio/master/src/data/images/" +
+              "https://raw.githubusercontent.com/GrantPerkins/GrantPerkins.github.io/master/src/data/images/" +
               props.image
             }
             title="image for project"
