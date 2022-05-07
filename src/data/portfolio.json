@@ -1,12 +1,5 @@
 [
   {
-    "name": "HeLa Cell Image Segmentation",
-    "link": "https://www.celltherapy.saint-gobain.com/about-us/life-sciences-lab",
-    "image": "cells.jpg",
-    "description": "While on co-op at Saint-Gobain Research North America, I worked with the Life Sciences business unit to develop an image segmentation pipeline for evaluating the performance of cell growth bags. The end result was a Flask server where biologists could upload a scan of a bag seeded with HeLa cells, and a modified Mask RCNN would perform inference. Then, dozens of metrics are calculated including eccentricity, solidity, and area of every cell. Finally, a .zip full of histograms and heatmaps of all available metrics is provided to the biologists so they may assess the bags. I will be a co-author on a paper about this project by end of Q2 2022.",
-    "technologies": ["Python", "PyTorch", "Flask", "OpenCV", "Pandas"]
-  },
-  {
     "name": "Unmasked: Reconstructing Masked Faces with Machine Learning",
     "link": "https://github.com/UnmaskedML/UnmaskedML",
     "image": "gan.png",
