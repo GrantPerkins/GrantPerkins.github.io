@@ -20,10 +20,11 @@
     "description": "While working at WPILib, I lead development on Axon, a TensorFlow-backed web app for retraining COCO trained Mobilenets for use in the FIRST Robotics Competition. Axon provides a friendly interface for creating datasets, training models with live metrics, and inferencing TFLite models. There is a Docker backend that runs various TensorFlow 1.12 processes. To trigger the Docker containers to run, there is a TypeScript server. Finally, a React frontend written in TypeScript communicates to the server using GraphQL.",
     "technologies": [
       "Python",
+	  "C++",
+	  "TypeScript",
       "TensorFlow",
       "OpenCV",
       "Docker",
-      "TypeScript",
       "GraphQL",
       "React"
     ]
@@ -33,7 +34,7 @@
     "link": "https://docs.wpilib.org/en/stable/docs/software/vision-processing/grip/introduction-to-grip.html",
     "image": "grip.png",
     "description": "While working at WPILib, I maintained GRIP, the Graphically Represented Image Processing engine. It provides an easy-to-use GUI to develop OpenCV vision pipelines, as well as generate code in Python, C++, and Java. GRIP uses a drag-and-drop interface to implement all base OpenCV functions, such as erode, resize, and contour detection. This tool is used by thousands of high school students every year, and is one of WPILib's most popular tools.",
-    "technologies": ["OpenCV", "Java", "Python", "C++", "Gradle"]
+    "technologies": [ "Java", "C++", "Python", "OpenCV", "Gradle"]
   },
   {
     "name": "Distributed Computing Systems Class Final Project",
