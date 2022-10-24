@@ -1,5 +1,12 @@
 [
   {
+    "name": "Impact of Intermarket Data on Stock Market Prediction",
+    "link": "https://github.com/Swiss-MQP-2022",
+    "image": "asset.png",
+    "description": "Stock market forecasting is one of the most widely explored subjects in both academia and private industry. The ability to predict future market movement, both short- and long-term, has significant implications towards the identification of economic changes, adjustment of investment portfolios, and general moneymaking in investment markets. In our exploration, we identified a lack of consideration for intermarket data on the ability of a machine learning model to forecast stock market value, such as the bond, currency exchange, and futures markets. In this paper, we implemented Logistic Regression, Decision Tree/Random Forest, K Nearest Neighbors, and Support Vector Machine models to explore the impact of intermarket data. Using these models we compare the quality of predictions made with respect to different combinations of assets and identify any potential usefulness of intermarket data towards the task of predicting S\\&P 500 Index movement. Significant differences in intermarket datasets and stock market datasets were not found. However, select intermarket datasets outperformed stock market datasets in all metrics, bringing into question the Efficient Market Hypothesis.",
+    "technologies": ["Python", "PyTorch", "scikit-learn", "pandas"]
+  },
+  {
     "name": "Unmasked: Reconstructing Masked Faces with Machine Learning",
     "link": "https://github.com/UnmaskedML/UnmaskedML",
     "image": "gan.png",
