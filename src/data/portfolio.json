@@ -1,7 +1,7 @@
 [
   {
     "name": "Using Intermarket Data to Evaluate the Efficient Market Hypothesis with Machine Learning",
-    "link": "https://github.com/Swiss-MQP-2022",
+    "link": "https://arxiv.org/abs/2212.08734",
     "image": "asset.png",
     "description": "In its semi-strong form, the Efficient Market Hypothesis (EMH) implies that technical analysis will not reveal any hidden statistical trends via intermarket data analysis. If technical analysis on intermarket data reveals trends which can be leveraged to significantly outperform the stock market, then the semi-strong EMH does not hold. In this work, we utilize a variety of machine learning techniques to empirically evaluate the EMH using stock market, foreign currency (Forex), international government bond, index future, and commodities future assets. We train five machine learning models on each dataset and analyze the average performance of these models for predicting the direction of future S&P 500 movement as approximated by the SPDR S&P 500 Trust ETF (SPY). From our analysis, the datasets containing bonds, index futures, and/or commodities futures data notably outperform baselines by substantial margins. Further, we find that the usage of intermarket data induce statistically significant positive impacts on the accuracy, macro F1 score, weighted F1 score, and area under receiver operating characteristic curve for a variety of models at the 95% confidence level. This provides strong empirical evidence contradicting the semi-strong EMH.",
     "technologies": ["Python", "PyTorch", "scikit-learn", "pandas"]
@@ -17,7 +17,7 @@
     "name": "AWS S3 Local Implementation",
     "link": "https://raw.githubusercontent.com/GrantPerkins/portfolio/master/src/data/paper.pdf",
     "image": "s3.png",
-    "description": "Developed a a local implementation of Amazon Web Services S3 to serve as a new project for WPI's Distributed Computing Systems course. The focus of this project was to implement quorum-based policy for fault tolerance and give students more experience with the Go programming language. This implementation supports multiple nodes saving copies of the file, file versioning per node based on the system clock, and multiple clients sending read and write requests.",
+    "description": "Developed a local implementation of Amazon Web Services S3 to serve as a new project for WPI's Distributed Computing Systems course. The focus of this project was to implement quorum-based policy for fault tolerance and give students more experience with the Go programming language. This implementation supports multiple nodes saving copies of the file, file versioning per node based on the system clock, and multiple clients sending read and write requests.",
     "technologies": ["Golang"]
   },
   {
