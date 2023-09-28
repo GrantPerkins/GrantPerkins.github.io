@@ -4,7 +4,7 @@
     "link": "https://github.com/GrantPerkins/CS539FinalProject",
     "image": "mbta.png",
     "description": "The Massachusetts Bay Transportation Authority (MBTA) has a commitment to providing their customers transparent performance measures. To aid in this commitment, this project predicts whether the Red Line will be late, given just 2 weeks of historical data on the other rapid transit lines. The MBTA Reliability dataset was split into disjoint training and testing sets. An exhaustive search of methods of scaling, feature decomposition, and models was performed, as well as five-fold cross validation. This produced PCA into random forest pipeline capable of 61% accuracy on predicting if the Red Line will be late. Additional models explored include GRU, LSTM, SVM, and logistic regression.",
-    "technologies": ["Python", "scikit-learn", "Python"]
+    "technologies": ["Python", "scikit-learn"]
   },
   {
     "name": "Using Intermarket Data to Evaluate the Efficient Market Hypothesis with Machine Learning",
