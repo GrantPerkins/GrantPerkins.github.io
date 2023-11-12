@@ -1,10 +1,25 @@
 [
   {
+    "name": "Pressure Injury Stage Image Classification using Cross-Shaped Window Attention Vision Transformers",
+    "link": "https://github.com/GrantPerkins/CSWin-Transformer",
+    "image": "cswin.png",
+    "description": "Pressure injuries affect up to three million people globally, leading to extended hospital stays and financial hardship for patients and their families. Proper treatment for a pressure injury depends on its stage (severity). Unfortunately, nurses have been found to be less than 70% accurate when diagnosing the stage of a pressure injury, resulting in improper treatment, and delaying the healing process for those misdiagnosed. To improve this situation, researchers have utilized deep learning models to classify the stage of a pressure injury from an image. Deep learning models struggle to learn from pressure injury image datasets for two reasons: limited samples and high intra-class variation with low inter-class variation. To address these challenges, we propose adapting the Cross-Shaped Window (CSWin) transformer to the task of pressure injury classification. Specifically, cross-shaped window self-attention decreases intra-class variation and increase inter-class variation more efficiently than previous approaches. We also utilize a model fine-tuning methodology to improve model robustness by pre-training the CSWin transformer on a larger and generalized dataset before fine-tuning it on our smaller pressure injury dataset, facilitating effective pressure injury stage classification from few samples. In rigorous evaluation, CSWin achieved an accuracy of 78.5%, outperforming the accuracy of prior state-of-the-art approaches by more than 8%. Deployment of the CSWin transformer in a hospital setting could improve the diagnostic accuracy by non-expert medical staff, directly improving the health of patients suffering from pressure injuries.",
+    "technologies": [
+      "PyTorch",
+      "Python",
+      "Vision Transformers",
+      "Deep Learning",
+      "scikit-learn",
+      "pandas",
+      "numpy"
+    ]
+  },
+  {
     "name": "Predicting MBTA Reliability with Historical Data",
     "link": "https://github.com/GrantPerkins/CS539FinalProject",
     "image": "mbta.png",
     "description": "The Massachusetts Bay Transportation Authority (MBTA) has a commitment to providing their customers transparent performance measures. To aid in this commitment, this project predicts whether the Red Line will be late, given just 2 weeks of historical data on the other rapid transit lines. The MBTA Reliability dataset was split into disjoint training and testing sets. An exhaustive search of methods of scaling, feature decomposition, and models was performed, as well as five-fold cross validation. This produced PCA into random forest pipeline capable of 61% accuracy on predicting if the Red Line will be late. Additional models explored include GRU, LSTM, SVM, and logistic regression.",
-    "technologies": ["Python", "scikit-learn", "Python"]
+    "technologies": ["Python", "scikit-learn"]
   },
   {
     "name": "Using Intermarket Data to Evaluate the Efficient Market Hypothesis with Machine Learning",
