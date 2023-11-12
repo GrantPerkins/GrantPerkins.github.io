@@ -37,7 +37,7 @@
   },
   {
     "name": "AWS S3 Local Implementation",
-    "link": "https://raw.githubusercontent.com/GrantPerkins/portfolio/master/src/data/paper.pdf",
+    "link": "https://github.com/GrantPerkins/GrantPerkins.github.io/blob/master/src/data/paper.pdf",
     "image": "s3.png",
     "description": "Developed a local implementation of Amazon Web Services S3 to serve as a new project for WPI's Distributed Computing Systems course. The focus of this project was to implement quorum-based policy for fault tolerance and give students more experience with the Go programming language. This implementation supports multiple nodes saving copies of the file, file versioning per node based on the system clock, and multiple clients sending read and write requests.",
     "technologies": ["Golang"]
